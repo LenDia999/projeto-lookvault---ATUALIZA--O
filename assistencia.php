@@ -1,30 +1,33 @@
 <?php
-session_start();
 $pageTitle = "LOOKVAULT · Assistência";
 $pageDescription = "Suporte e ajuda para o LOOKVAULT.";
 include 'includes/header.php';
 ?>
 
+<link rel="stylesheet" href="assets/css/pages.css">
+
 <main>
-    <section class="page-header">
+    <section class="page-hero">
         <div class="container">
-            <h1 class="page-title">Assistência</h1>
-            <p class="page-subtitle">Estamos aqui para ajudar você</p>
+            <div class="page-hero-inner">
+                <div class="page-hero-text">
+                    <span class="page-hero-eyebrow"><i class="fas fa-headset"></i> Suporte</span>
+                    <h1 class="page-hero-title">Central de <em>Ajuda</em></h1>
+                    <p class="page-hero-subtitle">Estamos aqui para ajudar você com qualquer dúvida.</p>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="form-section">
+
+    <section style="padding: 60px 0;">
         <div class="container">
-            <div class="form-wrapper">
-                <div style="text-align: center; padding: 40px 0;">
-                    <i class="fas fa-headset" style="font-size: 4rem; color: var(--roxo-medio); margin-bottom: 20px;"></i>
-                    <h3 style="margin-bottom: 12px;">Central de Suporte</h3>
-                    <p style="color: var(--texto-claro); max-width: 500px; margin: 0 auto 30px;">
-                        Entre em contato conosco através do e-mail ou pelo formulário abaixo.
-                    </p>
-                    <a href="mailto:suporte@lookvault.com" class="btn-primary">
-                        <i class="fas fa-envelope"></i> suporte@lookvault.com
-                    </a>
-                </div>
+            <div class="support-card">
+                <i class="fas fa-headset"></i>
+                <h3>Como podemos ajudar?</h3>
+                <p>Entre em contato conosco através do e-mail e responderemos o mais rápido possível.</p>
+                <a href="mailto:suporte@lookvault.com" class="btn-primary">
+                    <i class="fas fa-envelope"></i> suporte@lookvault.com
+                </a>
             </div>
         </div>
     </section>

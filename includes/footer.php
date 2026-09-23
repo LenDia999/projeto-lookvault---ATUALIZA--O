@@ -3,10 +3,13 @@
         <div class="footer-top">
             <span class="footer-brand">LOOKVAULT</span>
             <div class="footer-links">
-                <a href="assistencia.php">Assistência</a>
-                <a href="desenvolvimento.php">Desenvolvimento</a>
+                <a href="index.php">Início</a>
+                <a href="guarda-roupa.php">Guarda-Roupa</a>
+                <a href="combinacoes.php">Combinações</a>
+                <a href="estatisticas.php">Estatísticas</a>
                 <a href="sobre.php">Sobre</a>
                 <a href="blog.php">Blog</a>
+                <a href="assistencia.php">Assistência</a>
             </div>
         </div>
         <div class="footer-bottom">
@@ -20,7 +23,6 @@
     </div>
 </footer>
 
-<script src="assets/js/theme.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
